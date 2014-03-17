@@ -15,6 +15,7 @@ If the OS is windows, it looks for AppData\Roaming\Mediterraneancoin\mediterrane
 // this just forwards the getnewaddress method to the wallet...
 
 REQUEST: {"method": "getnewaddress", "params": [], "id": 1}
+
 ANSWER: {"result": "MfVsBVi8UnRpG5aVSWZXtBmCn2jzZTc47R", "error": null, "id": 1}
 
 
@@ -26,4 +27,5 @@ ANSWER: {"result": "MfVsBVi8UnRpG5aVSWZXtBmCn2jzZTc47R", "error": null, "id": 1}
 // with this method, by polling periodically, you can verify if the user has paid the amount due.
 
 REQUEST: {"method": "getlastntransactionsforaddress", "params": ["Mb9hgh4ThWUdSaUucYNqEzTVuBWHq5Q2W1", 5], "id": 1}
+
 ANSWER: [[111074,"f46e8218983ee45fc7052e145652502af69452c4657b5b72f10a36c271d784f7",10.0]]
