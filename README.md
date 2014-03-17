@@ -13,6 +13,7 @@ the service looks for (if OS is linux) .mediterraneancoin/mediterraneancoin.conf
 If the OS is windows, it looks for AppData\Roaming\Mediterraneancoin\mediterraneancoin.conf file.
 
 // this just forwards the getnewaddress method to the wallet...
+
 REQUEST: {"method": "getnewaddress", "params": [], "id": 1}
 ANSWER: {"result": "MfVsBVi8UnRpG5aVSWZXtBmCn2jzZTc47R", "error": null, "id": 1}
 
