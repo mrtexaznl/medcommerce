@@ -9,7 +9,8 @@ Run service on same machine where MED wallet is running:
 java -jar dist/medcommerce.jar
 
 By default, it should listen on localhost:8080 and wait for JSON-RPC calls;
-the service looks for .mediterraneancoin/mediterraneancoin.conf in the user's home for reading username and password.
+the service looks for (if OS is linux) .mediterraneancoin/mediterraneancoin.conf in the user's home for reading username and password.
+If the OS is windows, it looks for AppData\Roaming\Mediterraneancoin\mediterraneancoin.conf file.
 
 // this just forwards the getnewaddress method to the wallet...
 REQUEST: {"method": "getnewaddress", "params": [], "id": 1}
