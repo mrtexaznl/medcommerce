@@ -1,7 +1,7 @@
 medcommerce
 ===========
 
-Simple XML-RPC server for implementing an ecommerce service
+Simple JSON-RPC server for implementing an ecommerce service
 
 
 Run service on same machine where MED wallet is running:
